@@ -3,3 +3,5 @@ RewriteRule ^livro/?$ livro.php
 RewriteRule ^livro/([0-9]+)?$ livro.php?id=$1
 RewriteRule ^categoria/?$ categoria.php
 RewriteRule ^categoria/([0-9]+)?$ categoria.php?id=$1
+RewriteRule ^usuario/?$ usuario.php
+RewriteRule ^usuario/([0-9]+)?$ usuario.php?id=$1

@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="titulo-header">
+      Perfil
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item>
+    <div style="margin: auto;">
+      <ion-card class="header-perfil">
+        <div>
+          <img class="foto-perfil"
+            src="https://www.promoview.com.br/uploads/2017/04/b72a1cfe.png"/>
+        </div>
+        <div class="info_card_perfil">
+          <ion-card-subtitle style="margin-top: 10px;" class="info_card_data">Nome Completo</ion-card-subtitle>
+          <ion-card-subtitle class="info_card_data">Curso do usuário</ion-card-subtitle>
+          <ion-card-subtitle class="info_card_data">Número de matricula</ion-card-subtitle>
+          <ion-card-subtitle class="info_card_data">Status Atual: <div id="status">Boa</div></ion-card-subtitle>
+        </div>
+      </ion-card>
+    </div>
+  </ion-item>
+  <ion-item>
+    <div class="op-perfil">
+      <ion-button href="https://sigaa.unifap.br/sigaa/portais/discente/discente.jsf" class="button_op">Seus dados</ion-button>
+      <ion-button class="button_op">Livros emprestados</ion-button>
+      <ion-button class="button_op">Lista de desejo</ion-button>
+    </div>
+  </ion-item>
+</ion-content>
